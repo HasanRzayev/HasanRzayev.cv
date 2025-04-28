@@ -18,7 +18,15 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
+.portfolio-description {
+    margin-top: 15px;
+}
 
+@media (max-width: 768px) {
+    .portfolio-description {
+        text-align: center;
+    }
+}
 .py-6 {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -64,6 +72,9 @@
 .btn-lg-square {
     width: 48px;
     height: 48px;
+}
+html {
+    scroll-padding-top: 80px;  /* Başlıq hündürlüyü ilə uyğunlaşdırın */
 }
 
 .btn-square,
