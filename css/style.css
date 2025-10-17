@@ -1187,6 +1187,7 @@ html {
     justify-content: center;
     opacity: 0;
     transition: var(--transition);
+    z-index: 2;
 }
 
 .project-card:hover .project-overlay {
@@ -1196,6 +1197,8 @@ html {
 .project-links {
     display: flex;
     gap: 15px;
+    position: relative;
+    z-index: 3;
 }
 
 .project-link {
@@ -1211,6 +1214,9 @@ html {
     font-size: 18px;
     transition: var(--transition);
     box-shadow: var(--shadow-light);
+    position: relative;
+    z-index: 4;
+    cursor: pointer;
 }
 
 .project-link:hover {
